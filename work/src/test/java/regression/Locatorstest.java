@@ -3,6 +3,7 @@ package regression;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -12,7 +13,8 @@ public class Locatorstest {
   @Test
   public void f() {
 	  dr.get("https://www.google.com");
-	  dr.findElement(By.cssSelector(".gLFyf.gsfi")).sendKeys("Hi");
+	  dr.findElement(By.cssSelector(".gLFyf.gsfi")).sendKeys("Hi"+Keys.ENTER);
+	  System.out.println("ëntered text");
   }
   @BeforeMethod
   public void beforeMethod() {
