@@ -13,7 +13,7 @@ public class Locatorstest {
   @Test
   public void f() {
 	  dr.get("https://www.google.com");
-	  dr.findElement(By.cssSelector(".gLFyf.gsfi")).sendKeys("Hi"+Keys.ENTER);
+	  dr.findElement(By.cssSelector(".gLFyf.gsfi")).sendKeys("Hi");
 	  dr.findElement(By.cssSelector(".gLFyf.gsfi")).sendKeys("Hi"+Keys.ENTER);
 	  
   }
