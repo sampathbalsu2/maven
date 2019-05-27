@@ -13,8 +13,12 @@ public class Locatorstest {
   @Test
   public void f() {
 	  dr.get("https://www.google.com");
+<<<<<<< HEAD
 	  dr.findElement(By.cssSelector(".gLFyf.gsfi")).sendKeys("Hi");
 
+=======
+	  dr.findElement(By.cssSelector(".gLFyf.gsfi")).sendKeys("Hi"+Keys.ENTER);
+>>>>>>> branch 'master' of https://github.com/sampathbalsu2/maven.git
 	  
   }
   @BeforeMethod
