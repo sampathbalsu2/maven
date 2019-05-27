@@ -14,7 +14,7 @@ public class Locatorstest {
   public void f() {
 	  dr.get("https://www.google.com");
 	  dr.findElement(By.cssSelector(".gLFyf.gsfi")).sendKeys("Hi"+Keys.ENTER);
-	  System.out.println("ëntered text");
+	  System.out.println("ëntered hi");
   }
   @BeforeMethod
   public void beforeMethod() {
